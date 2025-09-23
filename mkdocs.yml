@@ -1,0 +1,8 @@
+site_name: "reactproject"
+site_description: 
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core
