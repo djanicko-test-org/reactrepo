@@ -1,5 +1,4 @@
-## 
-
+## ${{ values.name }}
 
 
 ## Getting started
