@@ -1,5 +1,5 @@
-site_name: "reactproject"
-site_description: 
+site_name: reactproject
+site_description: ${{values.description | dump}}
 
 nav:
   - Introduction: index.md
