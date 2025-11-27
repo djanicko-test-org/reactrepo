@@ -1,6 +1,6 @@
 ## 
 
-
+${{ values.description }}
 
 ## Getting started
 
