@@ -16,4 +16,4 @@ spec:
   type: website
   lifecycle: experimental
   owner: group:default/rhdh-team
-  scaffoldedFrom: template:default/create-react-app-template-with-timestamp-entityref
+  scaffoldedFrom: template:default/create-react-app-template
