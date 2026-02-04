@@ -2,18 +2,11 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: reactproject
+  description: ${{values.description | dump}}
   annotations:
     github.com/project-slug: djanicko-test-org/reactrepo
     backstage.io/techdocs-ref: dir:.
-    backstage.io/createdAt: 9/23/2025, 9:44:59 AM
-    custom.io/annotation: test-annotation-value
-    custom.io/other: value
-    backstage.io/template-version: 0.0.1
-  labels:
-    custom: test-label
-    other: test-label
 spec:
   type: website
   lifecycle: experimental
   owner: group:default/rhdh-team
-  scaffoldedFrom: template:default/create-react-app-template
