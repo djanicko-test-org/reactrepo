@@ -15,5 +15,5 @@ metadata:
 spec:
   type: website
   lifecycle: experimental
-  owner: group:default/rhdh-team
+  owner: user:default/rhdhtest-1
   scaffoldedFrom: template:default/create-react-app-template
